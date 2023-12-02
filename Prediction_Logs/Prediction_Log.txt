@@ -1,0 +1,370 @@
+2023-10-01/19:35:59		Start of Validation on files for prediction!!
+2023-10-01/19:35:59		Raw Data Validation Complete!!
+2023-10-01/19:35:59		Starting Data Transforamtion!!
+2023-10-01/19:36:00		DataTransformation Completed!!!
+2023-10-01/19:36:00		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/19:36:04		Table creation Completed!!
+2023-10-01/19:36:04		Insertion of Data into Table started!!!!
+2023-10-01/19:37:14		Insertion in Table completed!!!
+2023-10-01/19:37:14		Deleting Good Data Folder!!!
+2023-10-01/19:37:14		Good_Data folder deleted!!!
+2023-10-01/19:37:14		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/19:37:14		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/19:37:14		Validation Operation completed!!
+2023-10-01/19:37:14		Extracting csv file from table
+2023-10-01/19:37:14		Start of Prediction
+2023-10-01/19:37:14		Entered the get_data method of the Data_Getter class
+2023-10-01/19:37:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/19:37:14		Entered the remove_columns method of the Preprocessor class
+2023-10-01/19:37:14		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/19:37:14		Entered the is_null_present method of the Preprocessor class
+2023-10-01/19:37:14		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/19:37:14		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/19:37:14		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/19:37:14		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/19:37:14		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/19:37:14		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/19:37:14		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/19:37:14		Entered the load_model method of the File_Operation class
+2023-10-01/19:37:14		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/19:37:14		Error occured while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2023-10-01/20:19:27		Start of Validation on files for prediction!!
+2023-10-01/20:19:28		Raw Data Validation Complete!!
+2023-10-01/20:19:28		Starting Data Transforamtion!!
+2023-10-01/20:19:28		DataTransformation Completed!!!
+2023-10-01/20:19:28		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/20:19:32		Table creation Completed!!
+2023-10-01/20:19:32		Insertion of Data into Table started!!!!
+2023-10-01/20:20:28		Insertion in Table completed!!!
+2023-10-01/20:20:28		Deleting Good Data Folder!!!
+2023-10-01/20:20:28		Good_Data folder deleted!!!
+2023-10-01/20:20:28		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/20:20:28		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/20:20:28		Validation Operation completed!!
+2023-10-01/20:20:28		Extracting csv file from table
+2023-10-01/20:20:28		Start of Prediction
+2023-10-01/20:20:28		Entered the get_data method of the Data_Getter class
+2023-10-01/20:20:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/20:20:28		Entered the remove_columns method of the Preprocessor class
+2023-10-01/20:20:28		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/20:20:28		Entered the is_null_present method of the Preprocessor class
+2023-10-01/20:20:28		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/20:20:28		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/20:20:28		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/20:20:28		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/20:20:28		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/20:20:28		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/20:20:28		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/20:20:28		Entered the load_model method of the File_Operation class
+2023-10-01/20:20:28		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/20:20:28		Error occurred while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2023-10-01/20:56:41		Start of Validation on files for prediction!!
+2023-10-01/20:56:41		Raw Data Validation Complete!!
+2023-10-01/20:56:41		Starting Data Transforamtion!!
+2023-10-01/20:56:41		DataTransformation Completed!!!
+2023-10-01/20:56:41		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/20:56:46		Table creation Completed!!
+2023-10-01/20:56:46		Insertion of Data into Table started!!!!
+2023-10-01/20:57:39		Insertion in Table completed!!!
+2023-10-01/20:57:39		Deleting Good Data Folder!!!
+2023-10-01/20:57:39		Good_Data folder deleted!!!
+2023-10-01/20:57:39		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/20:57:39		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/20:57:39		Validation Operation completed!!
+2023-10-01/20:57:39		Extracting csv file from table
+2023-10-01/20:57:39		Start of Prediction
+2023-10-01/20:57:39		Entered the get_data method of the Data_Getter class
+2023-10-01/20:57:39		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/20:57:39		Entered the remove_columns method of the Preprocessor class
+2023-10-01/20:57:39		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/20:57:39		Entered the is_null_present method of the Preprocessor class
+2023-10-01/20:57:39		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/20:57:39		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/20:57:39		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/20:57:39		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/20:57:39		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/20:57:39		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/20:57:39		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/20:57:39		Entered the load_model method of the File_Operation class
+2023-10-01/20:57:39		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/20:57:39		Error occurred while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Index(['months_as_customer', 'policy_deductable', 'umbrella_limit',
+       'capital-gains', 'capital-loss', 'incident_hour_of_the_day',
+       'number_of_vehicles_involved', 'bodily_injuries', 'witnesses',
+       'injury_claim', 'property_claim', 'vehicle_claim', 'policy_csl',
+       'insured_sex', 'insured_education_level', 'incident_severity',
+       'property_damage', 'police_report_available',
+       'insured_occupation_armed-forces', 'insured_occupation_craft-repair',
+       'insured_occupation_exec-managerial',
+       'insured_occupation_farming-fishing',
+       'insured_occupation_handlers-cleaners',
+       'insured_occupation_machine-op-inspct',
+       'insured_occupation_other-service',
+       'insured_occupation_priv-house-serv',
+       'insured_occupation_prof-specialty',
+       'insured_occupation_protective-serv', 'insured_occupation_sales',
+       'insured_occupation_tech-support',
+       'insured_occupation_transport-moving',
+       'insured_relationship_not-in-family',
+       'insured_relationship_other-relative', 'insured_relationship_own-child',
+       'insured_relationship_unmarried', 'insured_relationship_wife',
+       'incident_type_Parked Car', 'incident_type_Single Vehicle Collision',
+       'incident_type_Vehicle Theft', 'collision_type_Rear Collision',
+       'collision_type_Side Collision', 'authorities_contacted_Fire',
+       'authorities_contacted_Other', 'authorities_contacted_Police',
+       'policy_annual_premium'],
+      dtype='object')
+2023-10-01/21:40:10		Start of Validation on files for prediction!!
+2023-10-01/21:40:10		Raw Data Validation Complete!!
+2023-10-01/21:40:10		Starting Data Transforamtion!!
+2023-10-01/21:40:10		DataTransformation Completed!!!
+2023-10-01/21:40:10		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/21:40:14		Table creation Completed!!
+2023-10-01/21:40:14		Insertion of Data into Table started!!!!
+2023-10-01/21:41:06		Insertion in Table completed!!!
+2023-10-01/21:41:06		Deleting Good Data Folder!!!
+2023-10-01/21:41:06		Good_Data folder deleted!!!
+2023-10-01/21:41:06		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/21:41:06		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/21:41:06		Validation Operation completed!!
+2023-10-01/21:41:06		Extracting csv file from table
+2023-10-01/21:41:06		Start of Prediction
+2023-10-01/21:41:06		Entered the get_data method of the Data_Getter class
+2023-10-01/21:41:06		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/21:41:06		Entered the remove_columns method of the Preprocessor class
+2023-10-01/21:41:06		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/21:41:06		Entered the is_null_present method of the Preprocessor class
+2023-10-01/21:41:06		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/21:41:06		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/21:41:06		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/21:41:06		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/21:41:06		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/21:41:06		Entered the load_model method of the File_Operation class
+2023-10-01/21:41:06		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/21:41:06		Entered the find_correct_model_file method of the File_Operation class
+2023-10-01/21:41:06		Exited the find_correct_model_file method of the Model_Finder class.
+2023-10-01/21:41:06		Entered the load_model method of the File_Operation class
+2023-10-01/21:41:06		Model File Logistic Regression0 loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/21:41:06		Error occurred while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Index(['policy_csl', 'insured_sex', 'insured_education_level',
+       'incident_severity', 'property_damage', 'police_report_available',
+       'insured_occupation_armed-forces', 'insured_occupation_craft-repair',
+       'insured_occupation_exec-managerial',
+       'insured_occupation_farming-fishing',
+       'insured_occupation_handlers-cleaners',
+       'insured_occupation_machine-op-inspct',
+       'insured_occupation_other-service',
+       'insured_occupation_priv-house-serv',
+       'insured_occupation_prof-specialty',
+       'insured_occupation_protective-serv', 'insured_occupation_sales',
+       'insured_occupation_tech-support',
+       'insured_occupation_transport-moving',
+       'insured_relationship_not-in-family',
+       'insured_relationship_other-relative', 'insured_relationship_own-child',
+       'insured_relationship_unmarried', 'insured_relationship_wife',
+       'incident_type_Parked Car', 'incident_type_Single Vehicle Collision',
+       'incident_type_Vehicle Theft', 'collision_type_Rear Collision',
+       'collision_type_Side Collision', 'authorities_contacted_Fire',
+       'authorities_contacted_Other', 'authorities_contacted_Police',
+       'months_as_customer', 'policy_deductable', 'policy_annual_premium',
+       'umbrella_limit', 'capital-gains', 'capital-loss',
+       'incident_hour_of_the_day', 'number_of_vehicles_involved',
+       'bodily_injuries', 'witnesses', 'injury_claim', 'property_claim',
+       'vehicle_claim', 'clusters'],
+      dtype='object')
+2023-10-01/21:58:55		Start of Validation on files for prediction!!
+2023-10-01/21:58:55		Raw Data Validation Complete!!
+2023-10-01/21:58:55		Starting Data Transforamtion!!
+2023-10-01/21:58:55		DataTransformation Completed!!!
+2023-10-01/21:58:55		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/21:58:58		Table creation Completed!!
+2023-10-01/21:58:58		Insertion of Data into Table started!!!!
+2023-10-01/21:59:50		Insertion in Table completed!!!
+2023-10-01/21:59:50		Deleting Good Data Folder!!!
+2023-10-01/21:59:50		Good_Data folder deleted!!!
+2023-10-01/21:59:50		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/21:59:50		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/21:59:50		Validation Operation completed!!
+2023-10-01/21:59:50		Extracting csv file from table
+2023-10-01/21:59:50		Start of Prediction
+2023-10-01/21:59:50		Entered the get_data method of the Data_Getter class
+2023-10-01/21:59:50		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/21:59:50		Entered the remove_columns method of the Preprocessor class
+2023-10-01/21:59:50		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/21:59:50		Entered the is_null_present method of the Preprocessor class
+2023-10-01/21:59:50		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/21:59:50		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/21:59:50		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/21:59:50		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/21:59:50		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/21:59:50		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/21:59:50		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/21:59:50		Entered the load_model method of the File_Operation class
+2023-10-01/21:59:50		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/21:59:50		Error occured while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2023-10-01/22:14:50		Start of Validation on files for prediction!!
+2023-10-01/22:14:50		Raw Data Validation Complete!!
+2023-10-01/22:14:50		Starting Data Transforamtion!!
+2023-10-01/22:14:51		DataTransformation Completed!!!
+2023-10-01/22:14:51		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/22:14:54		Table creation Completed!!
+2023-10-01/22:14:54		Insertion of Data into Table started!!!!
+2023-10-01/22:15:53		Insertion in Table completed!!!
+2023-10-01/22:15:53		Deleting Good Data Folder!!!
+2023-10-01/22:15:53		Good_Data folder deleted!!!
+2023-10-01/22:15:53		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/22:15:53		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/22:15:53		Validation Operation completed!!
+2023-10-01/22:15:53		Extracting csv file from table
+2023-10-01/22:15:53		Start of Prediction
+2023-10-01/22:15:53		Entered the get_data method of the Data_Getter class
+2023-10-01/22:15:53		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/22:15:53		Entered the remove_columns method of the Preprocessor class
+2023-10-01/22:15:53		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/22:15:53		Entered the is_null_present method of the Preprocessor class
+2023-10-01/22:15:53		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/22:15:53		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/22:15:53		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/22:15:53		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:15:53		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:15:53		Entered the load_model method of the File_Operation class
+2023-10-01/22:15:53		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:15:53		Entered the find_correct_model_file method of the File_Operation class
+2023-10-01/22:15:53		Exited the find_correct_model_file method of the Model_Finder class.
+2023-10-01/22:15:53		Entered the load_model method of the File_Operation class
+2023-10-01/22:15:53		Model File Logistic Regression0 loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:15:53		Error occurred while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Index(['policy_csl', 'insured_sex', 'insured_education_level',
+       'incident_severity', 'property_damage', 'police_report_available',
+       'insured_occupation_armed-forces', 'insured_occupation_craft-repair',
+       'insured_occupation_exec-managerial',
+       'insured_occupation_farming-fishing',
+       'insured_occupation_handlers-cleaners',
+       'insured_occupation_machine-op-inspct',
+       'insured_occupation_other-service',
+       'insured_occupation_priv-house-serv',
+       'insured_occupation_prof-specialty',
+       'insured_occupation_protective-serv', 'insured_occupation_sales',
+       'insured_occupation_tech-support',
+       'insured_occupation_transport-moving',
+       'insured_relationship_not-in-family',
+       'insured_relationship_other-relative', 'insured_relationship_own-child',
+       'insured_relationship_unmarried', 'insured_relationship_wife',
+       'incident_type_Parked Car', 'incident_type_Single Vehicle Collision',
+       'incident_type_Vehicle Theft', 'collision_type_Rear Collision',
+       'collision_type_Side Collision', 'authorities_contacted_Fire',
+       'authorities_contacted_Other', 'authorities_contacted_Police',
+       'months_as_customer', 'policy_deductable', 'policy_annual_premium',
+       'umbrella_limit', 'capital-gains', 'capital-loss',
+       'incident_hour_of_the_day', 'number_of_vehicles_involved',
+       'bodily_injuries', 'witnesses', 'injury_claim', 'property_claim',
+       'vehicle_claim', 'clusters'],
+      dtype='object')
+2023-10-01/22:28:17		Start of Validation on files for prediction!!
+2023-10-01/22:28:17		Raw Data Validation Complete!!
+2023-10-01/22:28:17		Starting Data Transforamtion!!
+2023-10-01/22:28:18		DataTransformation Completed!!!
+2023-10-01/22:28:18		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/22:28:21		Table creation Completed!!
+2023-10-01/22:28:21		Insertion of Data into Table started!!!!
+2023-10-01/22:29:14		Insertion in Table completed!!!
+2023-10-01/22:29:14		Deleting Good Data Folder!!!
+2023-10-01/22:29:14		Good_Data folder deleted!!!
+2023-10-01/22:29:14		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/22:29:14		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/22:29:14		Validation Operation completed!!
+2023-10-01/22:29:14		Extracting csv file from table
+2023-10-01/22:29:14		Start of Prediction
+2023-10-01/22:29:14		Entered the get_data method of the Data_Getter class
+2023-10-01/22:29:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/22:29:14		Entered the remove_columns method of the Preprocessor class
+2023-10-01/22:29:14		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/22:29:14		Entered the is_null_present method of the Preprocessor class
+2023-10-01/22:29:14		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/22:29:14		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/22:29:14		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/22:29:14		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:29:14		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:29:14		Entered the load_model method of the File_Operation class
+2023-10-01/22:29:14		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:29:14		Entered the find_correct_model_file method of the File_Operation class
+2023-10-01/22:29:14		Exited the find_correct_model_file method of the Model_Finder class.
+2023-10-01/22:29:14		Entered the load_model method of the File_Operation class
+2023-10-01/22:29:14		Model File Logistic Regression0 loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:29:14		Error occurred while running the prediction!! Error:: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+Index(['policy_csl', 'insured_sex', 'insured_education_level',
+       'incident_severity', 'property_damage', 'police_report_available',
+       'insured_occupation_armed-forces', 'insured_occupation_craft-repair',
+       'insured_occupation_exec-managerial',
+       'insured_occupation_farming-fishing',
+       'insured_occupation_handlers-cleaners',
+       'insured_occupation_machine-op-inspct',
+       'insured_occupation_other-service',
+       'insured_occupation_priv-house-serv',
+       'insured_occupation_prof-specialty',
+       'insured_occupation_protective-serv', 'insured_occupation_sales',
+       'insured_occupation_tech-support',
+       'insured_occupation_transport-moving',
+       'insured_relationship_not-in-family',
+       'insured_relationship_other-relative', 'insured_relationship_own-child',
+       'insured_relationship_unmarried', 'insured_relationship_wife',
+       'incident_type_Parked Car', 'incident_type_Single Vehicle Collision',
+       'incident_type_Vehicle Theft', 'collision_type_Rear Collision',
+       'collision_type_Side Collision', 'authorities_contacted_Fire',
+       'authorities_contacted_Other', 'authorities_contacted_Police',
+       'months_as_customer', 'policy_deductable', 'policy_annual_premium',
+       'umbrella_limit', 'capital-gains', 'capital-loss',
+       'incident_hour_of_the_day', 'number_of_vehicles_involved',
+       'bodily_injuries', 'witnesses', 'injury_claim', 'property_claim',
+       'vehicle_claim', 'clusters'],
+      dtype='object')
+2023-10-01/22:35:50		Start of Validation on files for prediction!!
+2023-10-01/22:35:50		Raw Data Validation Complete!!
+2023-10-01/22:35:50		Starting Data Transforamtion!!
+2023-10-01/22:35:50		DataTransformation Completed!!!
+2023-10-01/22:35:50		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-10-01/22:35:54		Table creation Completed!!
+2023-10-01/22:35:54		Insertion of Data into Table started!!!!
+2023-10-01/22:36:45		Insertion in Table completed!!!
+2023-10-01/22:36:45		Deleting Good Data Folder!!!
+2023-10-01/22:36:45		Good_Data folder deleted!!!
+2023-10-01/22:36:45		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-10-01/22:36:45		Bad files moved to archive!! Bad folder Deleted!!
+2023-10-01/22:36:45		Validation Operation completed!!
+2023-10-01/22:36:45		Extracting csv file from table
+2023-10-01/22:36:45		Start of Prediction
+2023-10-01/22:36:45		Entered the get_data method of the Data_Getter class
+2023-10-01/22:36:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-01/22:36:45		Entered the remove_columns method of the Preprocessor class
+2023-10-01/22:36:45		Column removal Successful. Exited the remove_columns method of the Preprocessor class
+2023-10-01/22:36:45		Entered the is_null_present method of the Preprocessor class
+2023-10-01/22:36:45		Finding missing values is a success. Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-01/22:36:45		Entered the impute_missing_values method of the Preprocessor class
+2023-10-01/22:36:45		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-01/22:36:45		Entered the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Entered the load_model method of the File_Operation class
+2023-10-01/22:36:45		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:36:45		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Entered the find_correct_model_file method of the File_Operation class
+2023-10-01/22:36:45		Exited the find_correct_model_file method of the Model_Finder class.
+2023-10-01/22:36:45		Entered the load_model method of the File_Operation class
+2023-10-01/22:36:45		Model File Logistic Regression0 loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:36:45		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-01/22:36:45		Entered the find_correct_model_file method of the File_Operation class
+2023-10-01/22:36:45		Exited the find_correct_model_file method of the Model_Finder class.
+2023-10-01/22:36:45		Entered the load_model method of the File_Operation class
+2023-10-01/22:36:45		Model File Logistic Regression1 loaded. Exited the load_model method of the Model_Finder class
+2023-10-01/22:36:45		End of Prediction

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Fraud Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Background color */
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #b7db34; /* Header background color */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #3498db; /* Button background color */
+            color: #fff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #2980b9; /* Button background color on hover */
+        }
+        .result-box {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Insurance Fraud Predictor</h1>
+    </div>
+    <div class="container">
+        <form method="post" id="datafetch_form" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="csvfile">Enter absolute file path:</label>
+                <input type="text" name="csvfile" id="csvfile" class="form-control" required>
+            </div>
+            <button class="btn btn-primary btn-block" id="customfile">Custom File Predict</button>
+            <hr>
+            <button class="btn btn-primary btn-block" id="defaultfile" data-path="Prediction_Batch_files">Default File Predict</button>
+        </form>
+    </div>
+    <div class="container result-box">
+        <h2>Results</h2>
+        <div class="json-result"></div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#loading").hide();
+            $("#customfile, #defaultfile").click(function (e) {
+                e.preventDefault();
+                $("#loading").show();
+                var path = $("#csvfile").val();
+                $.ajax({
+                    // Change the URL below
+                    url: "/predict",
+                    type: "POST",
+                    data: { filepath: path },
+                    success: function (response) {
+                        $(".json-result").html(
+                            '<p>"Prediction File created at !!!Prediction_Output_File/Predictions.csv and few of the predictions are"</p><pre>' +
+                                response +
+                                "</pre>"
+                        );
+                        $("#loading").hide();
+                    },
+                });
+            });
+        });
+    </script>
+</body>
+</html>
